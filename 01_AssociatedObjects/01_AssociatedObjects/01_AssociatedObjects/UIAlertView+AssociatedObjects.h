@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface UIAlertView (AssociatedObjects)
-@property (strong, nonatomic) id associatedObject;//添加的管理对象
+@property (strong, nonatomic) id associatedObject;//添加的关联对象
 @end

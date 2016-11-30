@@ -11,13 +11,11 @@
 
 @implementation UIAlertView (AssociatedObjects)
 
-- (void)setAssociatedObject:(id)associatedObject
-{
+- (void)setAssociatedObject:(id)associatedObject {
     objc_setAssociatedObject(self, @selector(associatedObject), associatedObject, OBJC_ASSOCIATION_RETAIN);
 }
 
-- (id)associatedObject
-{
+- (id)associatedObject {
     return objc_getAssociatedObject(self, _cmd);
 }
 @end

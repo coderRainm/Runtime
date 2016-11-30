@@ -1,0 +1,258 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		80FA6D291D34CD9000FBF9B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 80FA6D281D34CD9000FBF9B7 /* main.m */; };
+		80FA6D311D34CDCF00FBF9B7 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 80FA6D301D34CDCF00FBF9B7 /* Person.m */; };
+		80FA6D341D34CF6E00FBF9B7 /* Mobile.m in Sources */ = {isa = PBXBuildFile; fileRef = 80FA6D331D34CF6E00FBF9B7 /* Mobile.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		80FA6D231D34CD9000FBF9B7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		80FA6D251D34CD9000FBF9B7 /* 03_Dynamic_Method_Resolution&Message_Forwarding */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "03_Dynamic_Method_Resolution&Message_Forwarding"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80FA6D281D34CD9000FBF9B7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		80FA6D2F1D34CDCF00FBF9B7 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		80FA6D301D34CDCF00FBF9B7 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		80FA6D321D34CF6E00FBF9B7 /* Mobile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mobile.h; sourceTree = "<group>"; };
+		80FA6D331D34CF6E00FBF9B7 /* Mobile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mobile.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80FA6D221D34CD9000FBF9B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		80FA6D1C1D34CD9000FBF9B7 = {
+			isa = PBXGroup;
+			children = (
+				80FA6D271D34CD9000FBF9B7 /* 03_Dynamic_Method_Resolution&Message_Forwarding */,
+				80FA6D261D34CD9000FBF9B7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		80FA6D261D34CD9000FBF9B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80FA6D251D34CD9000FBF9B7 /* 03_Dynamic_Method_Resolution&Message_Forwarding */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80FA6D271D34CD9000FBF9B7 /* 03_Dynamic_Method_Resolution&Message_Forwarding */ = {
+			isa = PBXGroup;
+			children = (
+				80FA6D281D34CD9000FBF9B7 /* main.m */,
+				80FA6D2F1D34CDCF00FBF9B7 /* Person.h */,
+				80FA6D301D34CDCF00FBF9B7 /* Person.m */,
+				80FA6D321D34CF6E00FBF9B7 /* Mobile.h */,
+				80FA6D331D34CF6E00FBF9B7 /* Mobile.m */,
+			);
+			path = "03_Dynamic_Method_Resolution&Message_Forwarding";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80FA6D241D34CD9000FBF9B7 /* 03_Dynamic_Method_Resolution&Message_Forwarding */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80FA6D2C1D34CD9000FBF9B7 /* Build configuration list for PBXNativeTarget "03_Dynamic_Method_Resolution&Message_Forwarding" */;
+			buildPhases = (
+				80FA6D211D34CD9000FBF9B7 /* Sources */,
+				80FA6D221D34CD9000FBF9B7 /* Frameworks */,
+				80FA6D231D34CD9000FBF9B7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "03_Dynamic_Method_Resolution&Message_Forwarding";
+			productName = "03_Dynamic_Method_Resolution&Message_Forwarding";
+			productReference = 80FA6D251D34CD9000FBF9B7 /* 03_Dynamic_Method_Resolution&Message_Forwarding */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80FA6D1D1D34CD9000FBF9B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = aicai;
+				TargetAttributes = {
+					80FA6D241D34CD9000FBF9B7 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 80FA6D201D34CD9000FBF9B7 /* Build configuration list for PBXProject "03_Dynamic_Method_Resolution&Message_Forwarding" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 80FA6D1C1D34CD9000FBF9B7;
+			productRefGroup = 80FA6D261D34CD9000FBF9B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80FA6D241D34CD9000FBF9B7 /* 03_Dynamic_Method_Resolution&Message_Forwarding */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80FA6D211D34CD9000FBF9B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80FA6D341D34CF6E00FBF9B7 /* Mobile.m in Sources */,
+				80FA6D311D34CDCF00FBF9B7 /* Person.m in Sources */,
+				80FA6D291D34CD9000FBF9B7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		80FA6D2A1D34CD9000FBF9B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		80FA6D2B1D34CD9000FBF9B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		80FA6D2D1D34CD9000FBF9B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		80FA6D2E1D34CD9000FBF9B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80FA6D201D34CD9000FBF9B7 /* Build configuration list for PBXProject "03_Dynamic_Method_Resolution&Message_Forwarding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80FA6D2A1D34CD9000FBF9B7 /* Debug */,
+				80FA6D2B1D34CD9000FBF9B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80FA6D2C1D34CD9000FBF9B7 /* Build configuration list for PBXNativeTarget "03_Dynamic_Method_Resolution&Message_Forwarding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80FA6D2D1D34CD9000FBF9B7 /* Debug */,
+				80FA6D2E1D34CD9000FBF9B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 80FA6D1D1D34CD9000FBF9B7 /* Project object */;
+}

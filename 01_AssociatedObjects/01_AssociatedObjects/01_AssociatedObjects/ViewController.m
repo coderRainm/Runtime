@@ -21,23 +21,7 @@ typedef void (^AssociatedBock)(NSInteger);
     // Do any additional setup after loading the view, typically from a nib.
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
-- (void)doCancel
-{
-    NSLog(@"cancel..............");
-}
-
-- (void)doContinue
-{
-    NSLog(@"continue...............");
-}
-
-- (IBAction)showAlertView
-{
+- (IBAction)showAlertView {
     UIAlertView *alert = [[UIAlertView alloc]
                           initWithTitle:@"Question"
                           message:@"What do you want to do?"
@@ -56,8 +40,16 @@ typedef void (^AssociatedBock)(NSInteger);
     [alert show];
 }
 
-- (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex
-{
+- (void)doCancel {
+    NSLog(@"cancel..............");
+}
+
+- (void)doContinue {
+    NSLog(@"continue...............");
+}
+
+
+- (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex {
     AssociatedBock block = (AssociatedBock)alertView.associatedObject;
     block(buttonIndex);
 }
